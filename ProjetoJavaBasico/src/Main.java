@@ -109,7 +109,7 @@ public class Main {
             if (!topNotas.contains(nota)) {
                 topNotas.add(nota);
                 if (topNotas.size() == 3) {
-                    break;
+
                 }
             }
         }
@@ -138,7 +138,7 @@ public class Main {
                 menoresNotas.add(nota2);
                 menoresNotas.add(nota3);
                 Collections.sort(menoresNotas);
-                continue;
+
             }
 
             if (nota1 < menoresNotas.get(2) || nota2 < menoresNotas.get(2) || nota3 < menoresNotas.get(2)) {
